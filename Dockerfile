@@ -1,5 +1,6 @@
 from alpine:latest
 
+expose 22
 
 run apk update && apk upgrade
 
