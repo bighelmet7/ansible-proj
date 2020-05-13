@@ -7,4 +7,6 @@ run apk update && apk upgrade
 run apk add vim openssh curl ansible sshpass
 run pip3 install lxml
 
+run alias ll='ls -lart'
+
 cmd ["/usr/bin/top"]
